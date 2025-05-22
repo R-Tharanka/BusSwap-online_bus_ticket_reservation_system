@@ -164,7 +164,7 @@
 
 								<div class="field2">
 									<label for="date">Date</label>
-									<input type="date" name="t_date" id="date" class="date">
+									<input type="date" name="t_date" id="date" class="date" min="<%= java.time.LocalDate.now() %>">
 
 									<div class="arrow_div">
 										<img src="img/arrow_ticket.png" class="arrow_ticket">
