@@ -12,13 +12,20 @@ public class DatabaseConnectionUtil {
 
     static {
         try {
-            Class.forName("com.mysql.jdbc.Driver"); // Load driver once
+            Class.forName("com.mysql.jdbc.Driver");
+            System.out.println("MySQL JDBC Driver successfully loaded.");
         } catch (ClassNotFoundException e) {
             throw new RuntimeException("Failed to load MySQL JDBC driver", e);
         }
     }
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER, PASSWORD);
+        Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+        if (conn != null) {
+            System.out.println("Database connected successfully!");
+        } else {
+            System.out.println("Failed to establish database connection.");
+        }
+        return conn;
     }
 }
