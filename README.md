@@ -134,11 +134,6 @@ The `src/main/webapp/WEB-INF/lib` directory contains the following JAR files nec
 
 These libraries are automatically included in the deployed WAR file.
 
-## 📧 Contact
-
-For any inquiries, please open an issue on the GitHub repository.
-```
-
 ## 🔄 Application Flow
 
 1. User selects origin and destination on the home page
@@ -172,6 +167,10 @@ Stores booked ticket information:
 - `destination`: Arrival location
 - `seat_no`: Selected seat number
 - `price`: Ticket price
+ 
+## 📧 Contact
+
+For any inquiries, please open an issue on the GitHub repository.
 
 ## 📝 License
 
