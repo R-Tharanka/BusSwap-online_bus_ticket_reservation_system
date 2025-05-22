@@ -17,7 +17,7 @@ BusSwap is a comprehensive web-based bus ticket reservation system designed for 
 ## 🛠️ Technologies Used
 
 - **Backend**: Java EE (Servlets, JSP)
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Frontend**: HTML5, CSS3, JavaScript (rendered via JSP)
 - **Database**: MySQL
 - **Build Tool**: Maven
 - **Server**: Apache Tomcat (recommended)
