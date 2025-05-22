@@ -48,6 +48,7 @@ BusSwap is a comprehensive web-based bus ticket reservation system designed for 
 1. Clone the repository:
    ```
    git clone https://github.com/R-Tharanka/BusSwap-online_bus_ticket_reservation_system.git
+   
    ```
 
 2. Navigate to the project directory:
@@ -133,40 +134,9 @@ The `src/main/webapp/WEB-INF/lib` directory contains the following JAR files nec
 
 These libraries are automatically included in the deployed WAR file.
 
-## 🛡️ License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Contributors
-
-- [Ruchira Tharanka](https://github.com/R-Tharanka) - ruchiratharanka1@gmail.com (Project Creator)
-
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/R-Tharanka/BusSwap-online_bus_ticket_reservation_system)
-
 ## 📧 Contact
 
 For any inquiries, please open an issue on the GitHub repository.
-│           ├── booking.jsp
-│           ├── db_failed.jsp
-│           ├── index.jsp
-│           ├── null_input.jsp
-│           ├── privacy_policy.jsp
-│           ├── search_result.jsp
-│           ├── Terms_and_Conditions.jsp
-│           ├── css/             # Stylesheets
-│           ├── img/             # Image assets
-│           ├── META-INF/
-│           └── WEB-INF/
-│               ├── lib/         # External libraries
-│               │   ├── javax.servlet-3.1.jar
-│               │   ├── jstl-1.2.jar
-│               │   ├── jstl-api-1.2.jar
-│               │   ├── mysql-connector-java-5.1.48-bin.jar
-│               │   └── servlet-api.jar
-│               └── web_search.xml # Servlet mappings configuration
-└── target/                      # Build output directory
 ```
 
 ## 🔄 Application Flow
