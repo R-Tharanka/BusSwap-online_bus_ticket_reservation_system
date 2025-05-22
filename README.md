@@ -4,7 +4,7 @@
 
 ## 📝 Project Overview
 
-BusSwap is a comprehensive web-based bus ticket reservation system designed for Sri Lankan bus routes. The application allows users to search for available bus routes, book tickets, manage existing bookings (update/cancel), and view ticket details.
+BusSwap is a comprehensive web-based bus ticket reservation system. The application allows users to search for available bus routes, book tickets, manage existing bookings (update/cancel), and view ticket details.
 
 ## 🚀 Features
 
