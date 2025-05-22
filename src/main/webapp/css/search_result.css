@@ -1,23 +1,19 @@
-
-body
-{
-	margin: 0;
-	padding: 0;
-	/*min-height: 100vh !important;*/
-	position: relative;
+body {
+    margin: 0;
+    padding: 0;
+    /*min-height: 100vh !important;*/
+    position: relative;
 }
 
 
-#search_background_left
-{
-	width: 100%;
-	height: 80px;
-	background-color: #ebf4fb;
+#search_background_left {
+    width: 100%;
+    height: 80px;
+    background-color: #ebf4fb;
 }
 
-#form_container
-{
-	display: flex;
+#form_container {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -29,63 +25,56 @@ body
     justify-content: center;
 }
 
-#search_background_right
-{
-	width: 100%;
-	height: 80px;
-	background-color: #ebf4fb;
+#search_background_right {
+    width: 100%;
+    height: 80px;
+    background-color: #ebf4fb;
 }
 
 
-#p_m
-{
-	display: flex;
+#p_m {
+    display: flex;
     width: 100%;
-        top: -34px;
+    top: -34px;
     flex-direction: row;
     justify-content: center;
     position: relative;
 }
 
-#p1
-{
-	border-top-right-radius: 30px;
+#p1 {
+    border-top-right-radius: 30px;
     width: 100%;
     background-color: #fff;
     height: 30px;
 }
 
-#p2
-{
-	width: 2050px;
+#p2 {
+    width: 2050px;
 }
 
-#p3
-{
-	border-top-left-radius: 30px;
+#p3 {
+    border-top-left-radius: 30px;
     width: 100%;
     background-color: #fff;
     height: 30px;
 }
 
-#loop_div
-{
-	margin-bottom: 90px;
-    margin-top: 130px; /*290*/
+#loop_div {
+    margin-bottom: 90px;
+    margin-top: 130px;
+    /*290*/
     min-height: 38.9vh;
 }
 
-.bus_detail_container_main
-{
+.bus_detail_container_main {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin:40px;
+    margin: 40px;
 }
 
-.bus_detail_ticket_form
-{
-	padding-right: 26px !important;
+.bus_detail_ticket_form {
+    padding-right: 26px !important;
     padding-left: 26px !important;
     display: flex;
     flex-direction: row;
@@ -95,9 +84,8 @@ body
     border-radius: 12px;
 }
 
-.bus_img_container
-{
-	background-color: #eee;
+.bus_img_container {
+    background-color: #eee;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,41 +93,33 @@ body
     border-radius: 8px;
 }
 
-.bs_img_div
-{
-	display: flex;
-	flex-direction: row;
-    justify-content: center;
-}
-
-.bs_img
-{
-	width: 100px;
-	height: auto;
-}
-
-.bs_id_input
-{
-	
-}
-
-.arrow_div
-{
-	margin-top: 5.4px;
-	display: flex;
+.bs_img_div {
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.arrow_ticket
-{
-	width: 30px;
-	height: auto;
+.bs_img {
+    width: 100px;
+    height: auto;
 }
 
-.field_container
-{
-	padding: 4px;
+.bs_id_input {}
+
+.arrow_div {
+    margin-top: 5.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.arrow_ticket {
+    width: 30px;
+    height: auto;
+}
+
+.field_container {
+    padding: 4px;
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 8px;
@@ -148,44 +128,42 @@ body
     align-items: center;
 }
 
-.field1
-{
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
+.field1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.s_time , .e_time
-{
-	width: 70px;
+.s_time,
+.e_time {
+    width: 70px;
 }
 
-.from , .destination
-{
-	width: 94px;
+.from,
+.destination {
+    width: 94px;
 }
 
-.date , .duration
-{
-	width: 100px;
-}
-.field2
-{
-	text-align: center;
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-}
-.field3
-{
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
+.date,
+.duration {
+    width: 100px;
 }
 
-.button_container
-{
-	border-radius: 8px;
+.field2 {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field3 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_container {
+    border-radius: 8px;
     padding: 10px;
     background-color: #eee;
     display: flex;
@@ -194,27 +172,32 @@ body
 }
 
 
-.bs_id_input , .s_time , .from , .date , .duration , .e_time , .destination , .price , .seat_no
-{
-	border: none;
+.bs_id_input,
+.s_time,
+.from,
+.date,
+.duration,
+.e_time,
+.destination,
+.price,
+.seat_no {
+    border: none;
     margin-top: 4px;
     border-radius: 4px;
     height: 24px;
     text-align: center;
 }
 
-.submit_btn
-{
-	width: 50px; 
-	height:24px; 
-	border-radius: 4px; 
-	border: 1px solid black; 
-	cursor: pointer;
+.submit_btn {
+    width: 50px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
-.submit_btn:hover
-{
-	background-color: #EBF4FB;
+.submit_btn:hover {
+    background-color: #EBF4FB;
 }
 
 
@@ -225,7 +208,3 @@ input:disabled {
     border-radius: 4px !important;
     border: none !important;
 }
-
-
-
-

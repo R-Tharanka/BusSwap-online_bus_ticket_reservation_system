@@ -64,32 +64,28 @@ body {
 	align-items: center;
 }
 
-.action_btns {
-	
-}
+.action_btns {}
 
 .updt_btn {
 	margin-right: 6px;
 	height: 24px;
-    width: 65px;
-    border: 1px solid black;
-    border-radius: 4px;
+	width: 65px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
-.updt_btn:hover
-{
+.updt_btn:hover {
 	background-color: #EBF4FB;
 }
 
 .cncl_btn {
 	height: 24px;
-    width: 62px;
-    border: 1px solid black;
-    border-radius: 4px;
+	width: 62px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
-.cncl_btn:hover
-{
+.cncl_btn:hover {
 	background-color: hsla(9, 100%, 64%, 0.4);
 }
 
@@ -248,7 +244,8 @@ body {
 	align-items: center;
 }
 
-.f_t_value, .v_t_value {
+.f_t_value,
+.v_t_value {
 	background-color: #fff;
 	width: 50px;
 	border: none;
@@ -292,9 +289,7 @@ body {
 	height: auto;
 }
 
-.bs_id_input {
-	
-}
+.bs_id_input {}
 
 .arrow_div {
 	margin-top: 5.4px;
@@ -324,15 +319,18 @@ body {
 	flex-direction: column;
 }
 
-.s_time, .e_time {
+.s_time,
+.e_time {
 	width: 70px;
 }
 
-.from, .destination {
+.from,
+.destination {
 	width: 94px;
 }
 
-.date, .duration {
+.date,
+.duration {
 	width: 100px;
 }
 
@@ -358,8 +356,15 @@ body {
 	align-items: center;
 }
 
-.bs_id_input, .s_time, .from, .date, .duration, .e_time, .destination,
-	.price, .seat_no {
+.bs_id_input,
+.s_time,
+.from,
+.date,
+.duration,
+.e_time,
+.destination,
+.price,
+.seat_no {
 	border: none;
 	margin-top: 4px;
 	border-radius: 4px;
@@ -420,8 +425,7 @@ input:disabled {
 	align-items: center;
 	justify-content: center;
 	border-radius: 8px;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3)
-		0px 3px 7px -3px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #confirm_btns {
@@ -440,19 +444,16 @@ input:disabled {
 	padding-right: 8px;
 }
 
-#keep:hover
-{
+#keep:hover {
 	background-color: #EBF4FB;
 	border: 1px solid black;
 }
 
-#cancel:hover
-{
+#cancel:hover {
 	background-color: hsla(9, 100%, 64%, 0.4);
 }
 
-#confirm_msg
-{
+#confirm_msg {
 	font-size: 16.4px;
 }
 
@@ -577,7 +578,6 @@ input:disabled {
 	cursor: pointer;
 }
 
-#pay_btn:hover
-{
+#pay_btn:hover {
 	background-color: #EBF4FB;
 }

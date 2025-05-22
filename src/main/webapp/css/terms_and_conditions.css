@@ -2,13 +2,14 @@
 
 /* ///////Terms and Conditions ///////////////*/
 
-body{
-	margin: 0;
-	padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
+
 #terms {
-	
-	text-align: justify;
+
+    text-align: justify;
     display: flex;
     padding: 20px 0;
     margin-bottom: 90px;
@@ -32,7 +33,8 @@ body{
     margin-left: 20px;
 }
 
-#terms ol li, #terms ul li {
+#terms ol li,
+#terms ul li {
     margin-bottom: 10px;
 }
 

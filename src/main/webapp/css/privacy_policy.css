@@ -7,9 +7,8 @@ body {
     padding: 0;
 }
 
-#privacy_main_container
-{
-	display: flex;
+#privacy_main_container {
+    display: flex;
     margin-top: 140px;
     margin-bottom: 90px;
     flex-direction: column;
@@ -60,4 +59,3 @@ ul {
         padding: 10px;
     }
 }
-

@@ -16,15 +16,15 @@ CREATE TABLE IF NOT EXISTS bus_details (
     price VARCHAR(50) NOT NULL
 );
 
--- Create ticket_details table
-CREATE TABLE IF NOT EXISTS ticket_details (
+-- Create tickets table
+CREATE TABLE IF NOT EXISTS tickets (
     t_id INT AUTO_INCREMENT PRIMARY KEY,
-    bs_id VARCHAR(50) NOT NULL,
-    start_time VARCHAR(50) NOT NULL,
+    bus_id VARCHAR(50) NOT NULL,
+    s_time VARCHAR(50) NOT NULL,
     origin VARCHAR(100) NOT NULL,
     date VARCHAR(50) NOT NULL,
     duration VARCHAR(50) NOT NULL,
-    end_time VARCHAR(50) NOT NULL,
+    e_time VARCHAR(50) NOT NULL,
     destination VARCHAR(100) NOT NULL,
     seat_no INT NOT NULL,
     price VARCHAR(50) NOT NULL
@@ -82,7 +82,7 @@ INSERT INTO bus_details (origin, destination, start_time, end_time, duration, se
 ('Galle', 'Elpitiya', '17:30', '18:30', '1h 00m', 45, 'LKR 150');
 
 -- Insert some sample ticket data
-INSERT INTO ticket_details (bs_id, start_time, origin, date, duration, end_time, destination, seat_no, price) VALUES
+INSERT INTO tickets (bus_id, s_time, origin, date, duration, e_time, destination, seat_no, price) VALUES
 ('BUS001', '06:00', 'Colombo', '2025-05-25', '3h 00m', '09:00', 'Kandy', 12, 'LKR 550'),
 ('BUS002', '07:30', 'Colombo', '2025-05-26', '2h 30m', '10:00', 'Galle', 5, 'LKR 450'),
 ('BUS003', '20:00', 'Colombo', '2025-05-27', '8h 30m', '04:30', 'Jaffna', 22, 'LKR 1200');
