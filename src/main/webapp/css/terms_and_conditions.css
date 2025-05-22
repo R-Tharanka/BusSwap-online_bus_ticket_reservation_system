@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* ///////Terms and Conditions ///////////////*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#terms {
+	
+	text-align: justify;
+    display: flex;
+    padding: 20px 0;
+    margin-bottom: 90px;
+    margin-top: 140px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#terms .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#terms h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#terms ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+#terms ol li, #terms ul li {
+    margin-bottom: 10px;
+}
+
+#terms h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#terms ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

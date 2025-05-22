@@ -1,0 +1,22 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# === Maven ===
+/target/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store         # macOS
+Thumbs.db         # Windows

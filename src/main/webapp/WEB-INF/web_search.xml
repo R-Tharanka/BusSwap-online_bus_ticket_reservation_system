@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>search_result</servlet-name>
+		<servlet-class>bus_detail_package.search_result_control_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>search_result</servlet-name>
+		<url-pattern>/search_result</url-pattern>
+	</servlet-mapping>
+	
+	<!-- insert ticket details -->
+	
+	<servlet>
+		<servlet-name>ticket_detail_insert</servlet-name>
+		<servlet-class>bus_detail_package.ticket_control_servlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>ticket_detail_insert</servlet-name>
+		<url-pattern>/ticket_submit</url-pattern>
+	</servlet-mapping>
+	
+	<!-- display ticket details -->
+	<servlet>
+        <servlet-name>display_ticket_detail</servlet-name>
+        <servlet-class>bus_detail_package.display_ticket_control_servlet</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+        <servlet-name>display_ticket_detail</servlet-name>
+        <url-pattern>/display_ticket_control_servlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- display ticket details -->
+	<servlet>
+        <servlet-name>update_ticket_detail</servlet-name>
+        <servlet-class>bus_detail_package.update_ticket_control_servlet</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+        <servlet-name>update_ticket_detail</servlet-name>
+        <url-pattern>/update_ticket_control_servlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- delete ticket details -->
+	<servlet>
+        <servlet-name>delete_ticket_detail</servlet-name>
+        <servlet-class>bus_detail_package.delete_ticket_control_servlet</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+        <servlet-name>delete_ticket_detail</servlet-name>
+        <url-pattern>/delete_ticket_control_servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
