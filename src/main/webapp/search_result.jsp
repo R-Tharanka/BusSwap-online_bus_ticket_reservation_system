@@ -27,9 +27,6 @@
 
 		<body>
 
-
-
-
 			<div id="top_nav_container_main">
 				<div id="logo_container">
 					<a href="index.jsp">
@@ -103,23 +100,6 @@
 								</datalist>
 
 							</div>
-							<!-- 
-					<div class="search_input_parts">
-						
-						<label for="date">Date</label>
-						<br>
-						<input type="date" name="date" id="date">
-
-					</div>
-					
-					<div class="search_input_parts">
-						
-						<label for="ticket">Tickets</label>
-						<br>
-						<input type="number" name="Tickets" id="ticket">
-
-					</div>
-					 -->
 
 							<div class="search_input_parts" id="main_search_div">
 								<input type="submit" name="submit" value="Search">
@@ -238,22 +218,6 @@
 				</c:forEach>
 
 			</div>
-
-			<!-- 
-	<c:forEach var="bus" items="${bs_data}">
-        <div class="bus_detail_div">
-            <p>ID: ${bus.id}</p>
-            <p>Origin: ${bus.origin}</p>
-            <p>Destination: ${bus.destination}</p>
-            <p>Start Time: ${bus.start_time}</p>
-            <p>End Time: ${bus.end_time}</p>
-            <p>Duration: ${bus.duration}</p>
-            <p>Seats: ${bus.seats}</p>
-        </div>
-    </c:forEach>
-    
-    
-     -->
 
 			<form id="secondForm" action="display_ticket_control_servlet" method="GET" style="display: none;">
 				<!-- Additional form content here -->
